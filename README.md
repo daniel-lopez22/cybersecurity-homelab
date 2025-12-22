@@ -83,11 +83,11 @@ The Ubuntu Server VM was hardened following Linux security best practices:
 - Verified installation integrity  
 
 ### Service Verification
-'''console
+```bash
 systemctl status wazuh-manager
 systemctl status wazuh-indexer
 systemctl status wazuh-dashboard
-'''
+```
 #### Service Status showing services running successfully
 ![Service Status](screenshots/services-status.png)
 
