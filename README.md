@@ -83,13 +83,13 @@ The Ubuntu Server VM was hardened following Linux security best practices:
 - Verified installation integrity  
 
 ### Service Verification
-'''bash
+'''console
 systemctl status wazuh-manager
 systemctl status wazuh-indexer
 systemctl status wazuh-dashboard
 '''
+#### Service Status showing services running successfully
 ![Service Status](screenshots/services-status.png)
-All services were confirmed running successfully.
 
 ### Log Ingestion & Alerts
 - Confirmed Wazuh indices were created  
