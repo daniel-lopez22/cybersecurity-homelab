@@ -24,7 +24,7 @@ The homelab is hosted on a virtualized environment and consists of a single Ubun
 - Wazuh Manager, Indexer, and Dashboard running on the VM  
 - Local log generation for testing and validation  
 
-### Architecture Overview of the Homelab Setup
+#### Architecture Diagram of the Homelab Setup
 ![Homelab Architecture](diagrams/homelab-architecture.png)
 This diagram represents the logical SIEM architecture used in the homelab and abstracts lower-level network segmentation for clarity.
 
@@ -83,20 +83,22 @@ The Ubuntu Server VM was hardened following Linux security best practices:
 - Verified installation integrity  
 
 ### Service Verification
+'''bash
 systemctl status wazuh-manager
 systemctl status wazuh-indexer
 systemctl status wazuh-dashboard
-
+'''
+![Service Status](screenshots/services-status.png)
 All services were confirmed running successfully.
 
 ### Log Ingestion & Alerts
 - Confirmed Wazuh indices were created  
 - Verified alert ingestion using OpenSearch `_cat/indices`  
 - Successfully accessed the Wazuh Dashboard  
-- Generated and observed test alerts  
+- Observed alert generation from local system activity and service logs  
 
 
-### OpenSearch Indices showing Wazuh alert data
+#### OpenSearch Indices showing Wazuh alert data
 ![OpenSearch Indices](screenshots/opensearch-indices.png)
 
 ## Troubleshooting & Lessons Learned
