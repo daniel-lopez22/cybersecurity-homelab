@@ -93,7 +93,9 @@ All services were confirmed running successfully.
 - Successfully accessed the Wazuh Dashboard  
 - Generated and observed test alerts  
 
-*(Screenshots will be added in the `screenshots/` directory.)*
+
+### OpenSearch Indices showing Wazuh alert data
+![OpenSearch Indices](screenshots/opensearch-indices.png)
 
 ## Troubleshooting & Lessons Learned
 
