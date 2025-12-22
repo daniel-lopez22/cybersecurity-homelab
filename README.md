@@ -24,7 +24,9 @@ The homelab is hosted on a virtualized environment and consists of a single Ubun
 - Wazuh Manager, Indexer, and Dashboard running on the VM  
 - Local log generation for testing and validation  
 
-*(Architecture diagram will be added in the `diagrams/` directory.)*
+### Architecture Overview of the Homelab Setup
+![Homelab Architecture](diagrams/homelab-architecture.png)
+This diagram represents the logical SIEM architecture used in the homelab and abstracts lower-level network segmentation for clarity.
 
 ## Hardware & Software Stack
 
