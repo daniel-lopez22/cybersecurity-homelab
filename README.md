@@ -137,7 +137,7 @@ Planned enhancements include:
 - Simulating attack scenarios for detection testing  
 - Implementing role-based access controls  
 
-## 👤 Author
+## Author
 **Daniel Lopez**  
 Computer Systems Engineering (Cybersecurity)  
 Arizona State University  
